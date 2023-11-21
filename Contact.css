@@ -1,0 +1,77 @@
+body{
+ background-image: linear-gradient(to bottom, #277fb3, #1d6a9d, #135587, #084172, #002e5c);
+ font-family: 'Oranienbaum', serif;color: white;
+ text-align: center
+}
+.discon{
+ 
+  border: rgb(54, 188, 241) 5px solid;
+  background-color: rgb(32, 160, 211);
+  margin-bottom: 10px;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  
+}
+.email{
+ 
+  border: rgb(54, 129, 241) 5px solid;
+  background-color: rgb(32, 124, 211);
+  margin-bottom: 10px;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  
+}
+.gmail{
+ 
+  border: rgb(21, 56, 109) 5px solid;
+  background-color: rgb(26, 80, 160);
+  margin-bottom: 10px;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  
+}
+.navbar{
+  width: 100%;
+
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  margin-bottom: -1
+}
+.text{
+  color: black
+}
+.navbar img{
+  float: left;
+}
+.navbar h2{
+ color: black;
+ display: inline-block;
+ padding-bottom: 2px;
+ float: left;
+}
+.navbar li {
+  float: right;
+}
+
+.navbar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+  background-color: darkcyan;
+  color: white
+}
